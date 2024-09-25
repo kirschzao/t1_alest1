@@ -2,6 +2,9 @@ public class Main{
     public static void main(String[] args) {
         
         ArrayQueue arrayQueue = new ArrayQueue();
+        ArrayStack arrayStack = new ArrayStack();
+        
+
 
         arrayQueue.enqueue(5);
         arrayQueue.enqueue(6);

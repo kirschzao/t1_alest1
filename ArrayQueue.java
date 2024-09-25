@@ -62,6 +62,10 @@ public class ArrayQueue implements QueueTAD {
      * Remove todos elementos da fila.
      */
     public void clear() {
+        array = new int[8];
+        start = 0;
+        index = 0;
+        end = 0;
         
     }
 
